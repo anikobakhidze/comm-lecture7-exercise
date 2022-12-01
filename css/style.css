@@ -142,7 +142,7 @@ label:not(:last-child) {
 }
 .book-button {
   position: absolute;
-  top: 28px;
+  top: 27px;
   left: 85px;
 }
 
