@@ -1,11 +1,25 @@
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Regular.eot');
-  src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Roboto-Regular.woff2') format('woff2'),
-    url('../fonts/Roboto-Regular.woff') format('woff'),
-    url('../fonts/Roboto-Regular.ttf') format('truetype'),
-    url('../fonts/Roboto-Regular.svg#Roboto-Regular') format('svg');
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.eot");
+  src: url("../fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/Roboto-Regular.woff") format("woff"),
+    url("../fonts/Roboto-Regular.ttf") format("truetype"),
+    url("../fonts/Roboto-Regular.svg#Roboto-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Port Lligat Slab";
+  src: url("../fonts/PortLligatSlab-Regular.eot");
+  src: url("../fonts/PortLligatSlab-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/PortLligatSlab-Regular.woff2") format("woff2"),
+    url("../fonts/PortLligatSlab-Regular.woff") format("woff"),
+    url("../fonts/PortLligatSlab-Regular.ttf") format("truetype"),
+    url("../fonts/PortLligatSlab-Regular.svg#PortLligatSlab-Regular")
+      format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;

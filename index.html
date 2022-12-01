@@ -15,10 +15,8 @@
           <h1><a class="h1-header" href="index.html">Persian Design</a></h1>
           <nav class="nav">
             <ol class="flex">
-              <li >
-                <a class="nav-a first-nav-a" href="#products"
-                  >products</span
-                ></a>
+              <li>
+                <a class="nav-a first-nav-a" href="#products">products</a>
               </li>
               <li><a class="nav-a" href="#story">story</a></li>
               <li><a class="nav-a" href="#manufacturing">manufacturing</a></li>
@@ -27,57 +25,117 @@
             </ol>
           </nav>
           <div class="icon-wrapper flex">
-            <img class="icon" src="images/search.svg" alt="search-icon" />
-            <img class="icon" src="images/basket.svg" alt="basket-icon" />
-            <img class="icon" src="images/account.svg" alt="account-icon" />
+            <div class="icon-background flex">
+              <img class="icon" src="images/search.svg" alt="search-icon" />
+            </div>
+            <div class="icon-background flex">
+              <img class="icon" src="images/basket.svg" alt="basket-icon" />
+            </div>
+            <div class="icon-background flex">
+              <img class="icon" src="images/account.svg" alt="account-icon" />
+            </div>
           </div>
         </div>
       </header>
       <section>
-        <div class="section-wrapper">
+        <div class="section-wrapper flex">
           <div class="left-block">
             <h3>Design by persian design</h3>
             <h2>steak with tomato</h2>
-            <p>
+            <p class="about-steak">
               Salisbury Steak is made with ground beef that has been shaped into
               patties, while Swiss Steak is made with actual steak. For Swiss
               Steak, the beef is rolled or pounded and then braised in a
             </p>
             <form>
-              <input type="radio" id="medium" name="madium-stake" />
-              <label for="medium">medium</label>
-              <input type="radio" id="large" name="large-stake" />
-              <label for="large">large</label>
+              <div class="input-wrapper flex">
+                <input type="radio" id="medium" name="steak" />
+                <label for="medium">medium</label>
+                <input type="radio" id="large" name="steak" />
+                <label for="large">large</label>
+              </div>
             </form>
-            <div>
-              <button type="submit">Add To Cart</button>
-              <button type="submit">Book a Table</button>
+            <div class="divider"></div>
+            <div class="flex button-wrapper">
+              <div class="button">
+                <img src="./images/button1.png" alt="add cart button" />
+                <p class="add-button">Add To Cart</p>
+              </div>
+              <div class="right-button">
+                <img src="./images/button2.png" alt="add cart button" />
+                <p class="book-button">Book a Table</p>
+              </div>
             </div>
-            <img src="images/circle.svg" alt="circle-image" />
-            <span>watch lookbook</span>
           </div>
           <div class="right-block">
-            <img src="images/steak.png" alt="steak-image" />
-            <div class="circle-images">
-              <img src="images/circle1.svg" alt="circle image" />
-              <img src="images/circle2.svg" alt="circle image" />
-              <img src="images/circle2.svg" alt="circle image" />
-              <img src="images/circle2.svg" alt="circle image" />
+            <img
+              class="steak-picture"
+              src="images/steak.png"
+              alt="steak-image"
+            />
+            <div class="circle-images flex">
+              <img
+                class="img-circle"
+                src="images/circle1.svg"
+                alt="circle image"
+              />
+              <img
+                class="img-circle"
+                src="images/circle2.svg"
+                alt="circle image"
+              />
+              <img
+                class="img-circle"
+                src="images/circle2.svg"
+                alt="circle image"
+              />
+              <img
+                class="img-circle"
+                src="images/circle2.svg"
+                alt="circle image"
+              />
             </div>
-            <div class="coupen-wrapper">
-              <div class="coupen-header">
-                <h4>discount coupen</h4>
-                <button type="button">prev</button>
-                <button type="button">Next</button>
-              </div>
-              <div class="coupen-section">
-                <img src="images/coupen-image.svg" alt="fish salad" />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="second-section flex">
+          <div class="lookbook flex">
+            <img src="images/circle.svg" alt="circle-image" />
+            <span class="lookbook-span">watch lookbook</span>
+          </div>
+          <div class="coupen-wrapper">
+            <div class="coupen-header flex">
+              <h4>discount coupen</h4>
+              <span class="left-side flex">
+                <img
+                  class="arrow-left"
+                  src="images/arrow-left.png"
+                  alt="leftarrow"
+                />
+                PREV
+              </span>
+              <span>
+                NEXT
+                <img
+                  class="arrow-right"
+                  src="images/arrow-right.png"
+                  alt="rightarrow"
+                />
+              </span>
+            </div>
+            <div class="line-border"></div>
+            <div class="coupen-section flex">
+              <img src="images/coupen-image.svg" alt="fish salad" />
+              <div class="fish-salad flex">
                 <span>Fish salad</span>
                 <span>medium</span>
+              </div>
+              <div class="salad-price flex">
                 <span>$14.99</span>
                 <span>$7.90</span>
-                <button type="submit">Get coupen</button>
               </div>
+              <button type="submit">Get coupen</button>
             </div>
           </div>
         </div>

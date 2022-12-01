@@ -1,10 +1,9 @@
 body {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 .flex {
   display: flex;
-
 }
 
 .container {
@@ -17,12 +16,14 @@ body {
 
 .header-wrapper {
   justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 43px;
 }
 
 .h1-header {
   font-size: 26px;
   font-weight: 900;
-  color: #A80000;
+  color: #a80000;
 }
 
 ol {
@@ -33,16 +34,15 @@ ol {
 .nav-a {
   font-weight: 600;
   font-size: 22px;
-  color: #2C2C2C;
+  color: #2c2c2c;
 }
 
 .first-nav-a {
   font-weight: 800;
   font-size: 24px;
-  color: #2C2C2C;
+  color: #2c2c2c;
   padding-bottom: 11px;
-  border-bottom: 3px solid #2C2C2C;
-
+  border-bottom: 3px solid #2c2c2c;
 }
 
 .icon-wrapper {
@@ -50,7 +50,232 @@ ol {
   justify-content: space-between;
 }
 
-.icon {
-  background-image: url(../images/icon-background.png);
-  background-size: 30%;
+.icon-background {
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+/* first-section */
+.section-wrapper {
+  justify-content: space-between;
+  height: 721px;
+  margin-bottom: 64px;
+}
+.left-block {
+  width: 856px;
+  margin-top: 154px;
+}
+.left-block h3 {
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.left-block h2 {
+  width: 856px;
+  margin-bottom: 23px;
+  font-family: "Port Lligat Slab";
+  font-weight: 400;
+  font-size: 120px;
+  color: #a80000;
+}
+.left-block .about-steak {
+  width: 747px;
+  margin-bottom: 74px;
+  font-weight: 500;
+  font-size: 22px;
+  color: #000000;
+}
+
+.input-wrapper {
+  height: 31px;
+  align-items: center;
+  margin-bottom: 74px;
+}
+input {
+  width: 31px;
+  height: 31px;
+  accent-color: #d9d9d9;
+}
+label {
+  font-weight: 600;
+  font-size: 22px;
+  margin-left: 16px;
+}
+label:not(:last-child) {
+  margin-right: 30px;
+}
+.divider {
+  height: 2px;
+  width: 587px;
+  background-color: #d9d9d9;
+  margin-left: 47px;
+  margin-bottom: 61px;
+}
+.button,
+.right-button {
+  position: relative;
+  width: 250px;
+  height: 56px;
+}
+.button {
+  margin-left: 73px;
+}
+.add-button {
+  position: absolute;
+  top: 53px;
+  left: 85px;
+}
+.add-button,
+.book-button {
+  font-weight: 800;
+  font-size: 22px;
+  color: #ffffff;
+}
+.right-button {
+  position: relative;
+  margin-top: 27px;
+  margin-left: 15px;
+}
+.book-button {
+  position: absolute;
+  top: 28px;
+  left: 85px;
+}
+
+.right-block {
+  width: 721px;
+  position: relative;
+}
+.steak-picture {
+  width: 100%;
+  height: 100%;
+}
+.circle-images {
+  flex-direction: column;
+  height: 170px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.img-circle:not(:last-child) {
+  margin-bottom: 16px;
+}
+/* second-section */
+.second-section {
+  width: 1200;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 95px;
+}
+.lookbook {
+  align-items: center;
+  margin-top: 140px;
+}
+.lookbook-span {
+  margin-left: 8px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.coupen-wrapper {
+  height: 153px;
+  width: 507px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+}
+.coupen-header {
+  margin: 12px 16px 8px 15px;
+  justify-content: baseline;
+}
+.coupen-header h4 {
+  margin-right: 156px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.coupen-header span {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
+}
+.left-side {
+  margin-right: 25px;
+}
+
+.arrow-left {
+  padding-right: 11px;
+}
+.arrow-right {
+  padding-left: 11px;
+}
+.arrow-left,
+.arrow-right {
+  height: 13px;
+  color: #2c2c2c;
+}
+.line-border {
+  width: 100%;
+  height: 1px;
+  background-color: #d9d9d9;
+}
+
+.coupen-section {
+  margin-left: 16px;
+}
+.coupen-section img {
+  margin-top: 8px;
+}
+
+.fish-salad {
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 19px 101px 0px 9px;
+  height: 56px;
+}
+.fish-salad span {
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.fish-salad span:nth-child(1) {
+  font-weight: 800;
+  font-size: 18px;
+}
+.fish-salad span:nth-child(2),
+.salad-price span:nth-child(1) {
+  font-weight: 700;
+  font-size: 14px;
+}
+.salad-price {
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 28px;
+  margin-right: 20px;
+  height: 42px;
+}
+.salad-price span:nth-child(1) {
+  text-decoration: line-through;
+}
+.salad-price span:nth-child(2) {
+  font-weight: 800;
+  font-size: 16px;
+  color: #000;
+}
+.coupen-section button {
+  width: 110px;
+  height: 26px;
+  margin-top: 33px;
+  border: none;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #fff500;
+  border-radius: 25px;
 }
